@@ -283,6 +283,9 @@ tr.highlight:hover {
 }
 
 #footer a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
+#footer a:hover{
+	text-decoration: none;
+}
