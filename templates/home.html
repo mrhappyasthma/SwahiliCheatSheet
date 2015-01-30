@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+	{% block bodycontent %}		
+		{% include "menubar.html" %} <!--Includes the links menu bar-->
+		
+		<div id="page">
+			<div id="content">
+				<!--Includes all posts (each section)-->
+				{% include "posts/title.html" %}
+				{% include "posts/pronouns.html" %}
+				{% include "posts/tenses.html" %}
+				{% include "posts/greetings.html" %}
+				{% include "posts/negation.html" %}
+				{% include "posts/kuwana.html" %}
+				{% include "posts/possessives.html" %}
+				{% include "posts/numbers.html" %}
+				{% include "posts/dates.html" %}
+				{% include "posts/times.html" %}
+				{% include "posts/objectprefixes.html" %}
+				{% include "posts/reflexive.html" %}
+				{% include "posts/nounclasses.html" %}
+			</div>
+			
+			{% include "sidebar.html" %} <!--Includes the side bar-->
+			
+			<div id="extra" style="clear: both;">&nbsp;</div>
+		</div>
+	{% endblock %}

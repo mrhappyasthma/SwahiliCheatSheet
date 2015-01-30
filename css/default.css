@@ -1,0 +1,288 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Edited by MrHappyAsthma */
+
+body {
+	margin: 0;
+	padding: 0;
+	/* 	background: #FFFFFF url(img/img01.jpg) repeat-x; */
+	background: #FFFFFF url(../img/img11.jpg) repeat-x; /* NOTE:  Edited to be two-rows of menu background */
+	font: 13px Georgia, "Times New Roman", Times, serif;
+	color: #666666;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+input, textarea {
+	font: normal 1em Georgia, "Times New Roman", Times, serif;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+	margin: 0;
+	text-decoration: none;
+	color: #333333;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 3.2em;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+h3 {
+	margin-bottom: 1em;
+	font-size: 1.5em;
+}
+
+p {
+	margin: 10px;
+	line-height: 200%;
+}
+
+ol, ul {
+	margin: 0 0 2em 0;
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 0 0 0 2.5em;
+	padding-left: 1em;
+	border-left: 5px solid #16B1B0;
+}
+
+a {
+	color: #16B1B0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+span.red {
+	font-weight: bold;
+	color: red;
+}
+
+span.blue {
+	font-weight: bold;
+	color: blue;
+}
+
+span.green {
+	font-weight: bold;
+	color: green;
+}
+
+span.black {
+	font-weight: bold;
+	color: black;
+}
+
+img {
+	border: none;
+}
+
+table {
+	margin: 10px;
+}
+
+td {
+	padding: 2px;
+	border: 2px solid #16B1B0;
+	text-align: center;
+}
+
+tr.title {
+	color: black;
+	font-weight: bold;
+}
+
+tr.highlight:hover {
+	background: #FCF;
+}
+
+/* Header */
+
+#header {
+	width: 770px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#header h1, #header p {
+	margin: 0;
+}
+
+#header h1 {
+	float: left;
+	padding: 34px 0 0 0;
+}
+
+#header p {
+	float: right;
+	padding: 42px 0 0 0;
+	font-size: 1.8em;
+}
+
+#header a {
+	text-decoration: none;
+	color: #333333;
+}
+
+/* Menu */
+
+.menu {
+	width: 770px;
+	height: 110px;
+	margin: 0 auto;
+	background: url(../img/img10.jpg) no-repeat; /* NOTE: Two rows of menu options */
+	/* background: url(img/img02.jpg) no-repeat; */
+}
+
+.menu ul {
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	padding-right: 20px;
+	text-decoration: none;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333333;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 770px;
+	margin: 0 auto;
+	background: url(../img/img05.gif);
+}
+
+#extra {
+	background: url(../img/img06.gif) no-repeat left bottom;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 530px;
+	background: url(../img/img03.gif) no-repeat;
+}
+
+.post {
+	padding: 40px 40px 0 40px;
+}
+
+.post ol, .post ul {
+	list-style-position: inside;
+}
+
+.post .links {
+	padding: 2px 20px;
+	background: #CDFAFB;
+	text-align: right;
+}
+
+.post .links a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0B8785;
+}
+
+.post .links a:hover {
+	text-decoration: underline;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	background: url(../img/img04.gif) no-repeat;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+}
+
+#sidebar li ul {
+	padding: 20px;
+}
+
+#sidebar h2 {
+	height: 33px;
+	padding: 4px 0 0 10px;
+	background: url(../img/img07.jpg) no-repeat;
+	font-size: 1.6em;
+}
+
+/* Contact */
+
+#contactform {
+	padding: 20px;
+}
+
+#contact h2 {
+	background: url(../img/img08.jpg) no-repeat;
+}
+
+#contact #s {
+	width: 120px;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0;
+	background: url(../img/img11.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0 0 5px 0;
+	text-align: center;
+	line-height: normal;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
