@@ -1,7 +1,7 @@
 import os
 import webapp2
 from google.appengine.ext.webapp import template     
-from datetime import date
+from datetime import date   
     
 def renderTemplate(response, templatename, templatevalues) :
     basepath = os.path.split(os.path.dirname(__file__)) #extract the base path, since we are in the "app" folder instead of the root folder
@@ -12,13 +12,16 @@ def renderTemplate(response, templatename, templatevalues) :
 # Handler classes
 class HomepageHandler(webapp2.RequestHandler) :
     def get(self):
-        template_values = {
-            'page_title' : "Swahili Cheat Sheet",
-            'current_year' : date.today().year,
-        }
+        if os.environ['HTTP_HOST'].endswith('.appspot.com'):  #Redirect the appspot url to the custom url
+            self.response.out.write('<meta http-equiv="refresh" content="0; url=http://swahilicheatsheet.com" />')
+        else:
+            template_values = {
+                'page_title' : "Swahili Cheat Sheet",
+                'current_year' : date.today().year,
+            }
+                    
+            renderTemplate(self.response, 'home.html', template_values)
             
-        renderTemplate(self.response, 'home.html', template_values)
-        
             
 # list of URI/Handler routing tuples
 # the URI is a regular expression beginning with root '/' char
