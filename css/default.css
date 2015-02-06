@@ -51,6 +51,11 @@ h3 {
 	font-size: 1.5em;
 }
 
+h4 {
+	margin-bottom: 1em;
+	font-size: 1.3em;
+}
+
 p {
 	margin: 10px;
 	line-height: 200%;
