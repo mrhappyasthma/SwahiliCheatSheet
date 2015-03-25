@@ -114,6 +114,10 @@ td {
 	text-align: center;
 }
 
+td.blue {
+	background: LightSkyBlue;
+}
+
 tr.title {
 	color: black;
 	font-weight: bold;
