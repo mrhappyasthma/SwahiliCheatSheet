@@ -6,12 +6,17 @@ Released for free under a Creative Commons Attribution 2.5 License
 
 /* Edited by MrHappyAsthma */
 
+@font-face { /* Load the new "chalk" font */
+font-family: GeorgiaFont;
+src: url(../fonts/Georgia.ttf);
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	/* 	background: #FFFFFF url(img/img01.jpg) repeat-x; */
 	background: #FFFFFF url(../img/img11.jpg) repeat-x; /* NOTE:  Edited to be two-rows of menu background */
-	font: 13px Georgia, "Times New Roman", Times, serif;
+	font: 14px GeorgiaFont, arial, sans-serif;
 	color: #666666;
 }
 
