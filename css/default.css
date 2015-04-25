@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	/* 	background: #FFFFFF url(img/img01.jpg) repeat-x; */
 	background: #FFFFFF url(../img/img11.jpg) repeat-x; /* NOTE:  Edited to be two-rows of menu background */
-	font: 13px Georgia;
+	font: 13px Arial;
 	color: #666666;
 }
 
