@@ -11,3 +11,4 @@ handlers:
   static_dir: img
 - url: /.*
   script: app.Controller.application
+  secure: always
